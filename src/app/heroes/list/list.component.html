@@ -1,0 +1,25 @@
+<h1>Muguiwara list</h1>
+
+<div *ngIf="heroDelete; else notDeleted ">
+  <h3>
+    Mugui deleted: <small>{{ heroDelete }}</small>
+  </h3>
+</div>
+
+<ng-template #notDeleted>
+  <h3>Not Mugui deleted </h3>
+</ng-template>
+
+<!-- <div *ngIf="!heroDelete">
+  <h3>
+    Not Mugui Deleted
+  </h3>
+</div> -->
+
+<button (click)="deleteMuguiwara()">Delete muguiwara</button>
+
+<ul>
+  <li *ngFor="let muguiwara of muguiwaras; let i = index">
+    {{ i + 1 }} - {{ muguiwara }}
+  </li>
+</ul>
