@@ -1,5 +1,9 @@
 # 01Bases
 
+Proyecto basico para comprender el funcionamiento de los diferenctes componentes de angular, modulos, servicios etc.
+
+Despliegue: https://angularbasescurso.netlify.app/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 
 ## Development server
